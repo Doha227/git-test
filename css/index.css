@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+.containe{  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.9fr 1.1fr 1fr 1fr 1fr 1fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "child1 child1 child1 child1 child1 child1 child2 child2 child2 child2 child2 child2"
+      "child1 child1 child1 child1 child1 child1 child2 child2 child2 child2 child2 child2"
+      "child1 child1 child1 child1 child1 child1 child2 child2 child2 child2 child2 child2"
+      "child1 child1 child1 child1 child1 child1 child2 child2 child2 child2 child2 child2"
+      "child3 child3 child3 child4 child4 child4 child4 child4 child4 child5 child5 child5"
+      "child3 child3 child3 child4 child4 child4 child4 child4 child4 child5 child5 child5"
+      "child3 child3 child3 child4 child4 child4 child4 child4 child4 child5 child5 child5"
+      "child3 child3 child3 child4 child4 child4 child4 child4 child4 child5 child5 child5"
+      "child6 child6 child6 child7 child7 child7 child7 child7 child7 child5 child5 child5"
+      "child6 child6 child6 child7 child7 child7 child7 child7 child7 child5 child5 child5"
+      "child6 child6 child6 child7 child7 child7 child7 child7 child7 child5 child5 child5"
+      "child6 child6 child6 child7 child7 child7 child7 child7 child7 child5 child5 child5"
+      "child8 child8 child8 child9 child9 child9 child10 child10 child10 child10 child10 child10"
+      "child8 child8 child8 child9 child9 child9 child10 child10 child10 child10 child10 child10";
+  }
+  
+  .child1 { grid-area: child1;
+  background-color: white; }
+  .text-chi1{
+    margin-left: 30px;
+  }
+
+  .text-chi1 span{
+    font-weight:700;
+    Color:rgb(159, 163, 167);
+font-size:12px;
+line-height:20px;
+letter-spacing: 2px;
+font-family: "Montserrat", sans-serif;
+  }
+  .text-chi1 h3{
+    font-weight:400;
+   Color:rgb(51, 51, 51);
+font-size:22px;
+line-height:32px;
+font-family: "Open Sans", sans-serif;
+
+  }
+  .text-chi1 p{
+    font-weight:400;
+   Color:rgb(159, 163, 167);
+font-size:14px;
+line-height:26px;
+font-family: "Arvo", serif;
+
+  }
+
+  .text-chi1{
+    width: 30%;
+  }
+  .child1 img{
+    width: 80%;
+
+    transform: translateY(11%);
+
+
+  }
+
+
+
+
+  .child2 { grid-area: child2;
+  
+  background-color: rgb(247, 248, 249);
+}
+
+
+  .child2  span{
+    font-weight:700;
+   Color:rgb(159, 163, 167);
+font-size:12px;
+line-height:20px;
+letter-spacing: 2px;
+font-family: "Montserrat", sans-serif;
+  }
+  .child2  h1{
+    font-weight:400;
+    Color:rgb(51, 51, 51);
+font-size:48px;
+line-height:60px;
+font-family: "Arvo", serif;
+  }
+  .child2  a{
+    font-weight:400;
+    Color:rgb(39, 185, 194);
+font-size:14px;
+line-height:26px;
+font-family: "Open Sans", sans-serif;
+  }
+
+
+  .child3 { grid-area: child3;
+    background-color: rgb(240, 86, 56) }
+    .text-child3{
+      width: 80%;
+    }
+
+    .text-child3 h3{
+      font-weight:700;
+      Color:rgb(255, 251, 251);
+font-size:22px;
+line-height:32px;
+font-family: "Arvo", serif;
+      
+    }
+    .text-child3 a{
+      font-weight: 700;
+      Color:rgb(255, 200, 10);
+      font-size:12px;
+      line-height:26px;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-family: "Open Sans", sans-serif;
+    }
+  
+  .child4 { grid-area: child4;
+
+
+}
+.img-child4 p{
+  width: 70%;
+  font-weight:400;
+  Color:rgb(51, 51, 51);
+font-size:22px;
+line-height:32px;
+font-family: "Montserrat", sans-serif;
+}
+.img-child4 span{
+  font-weight:700;
+  Color:rgb(159, 163, 167);
+  font-size:12px;
+line-height:20px;
+letter-spacing: 2px;
+text-align: left;
+font-family: "Arvo", serif;
+
+}
+.child4 img{
+  transform: translateY(35%);
+}
+
+.text-child4 p{
+  font-weight:400;
+  Color:rgb(159, 163, 167);
+font-size:14px;
+line-height:30px;
+font-family: "Open Sans", sans-serif;
+}
+.text-child4 a{
+  font-weight:700;
+  Color:rgb(39, 185, 194);
+  font-size:12px;
+  line-height:26px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+
+
+}
+  .child5 { grid-area: child5; 
+    background-color: rgb(143, 118, 188);
+overflow: hidden;
+}
+.layer-five a{
+  font-weight:700;
+  Color:rgb(255, 255, 255);
+font-size:10px;
+line-height:23px;
+margin-bottom: 10px;
+text-decoration: none;
+letter-spacing: 2px;
+font-family: "Open Sans", sans-serif;
+width: 90px;
+height: 20px;
+background-color: #8B72B6;
+border-radius: 5px ;
+text-align: center;
+}
+.layer-five a img{
+  width: 10%;
+}
+.layer-five span{
+  font-weight:700;
+  Color:rgb(255, 255, 255);
+  font-size:12px;
+  line-height:20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+
+.text-child5 h4{
+  font-weight:700;
+  Color:rgb(255, 255, 255);
+  font-size:32px;
+  line-height:36px;
+  font-family: "Arvo", serif;
+}
+.text-child5 p{
+  font-weight:400;
+  Color:rgb(255, 255, 255);
+  font-size:14px;
+  line-height:26px;
+  font-family: "Open Sans", sans-serif;
+}
+.text-child5 a{
+  font-weight:700;
+  Color:rgb(0, 0, 0);
+  font-size:12px;
+  line-height:26px;
+  font-family: "Open Sans", sans-serif;
+  width: 140px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #FFC80A;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+.text-child5{
+  width: 70%;
+
+}
+  .layer-five{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: rgb(129, 102, 176);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  .child6 { grid-area: child6; }
+  .child6 p{
+    font-weight:400;
+    Color:rgb(51, 51, 51);
+font-size:22px;
+line-height:32px;
+font-family: "Arvo", serif;
+  }
+  .child6 a{
+    font-weight:700;
+    Color:rgb(39, 185, 194);
+    font-size:12px;
+    line-height:26px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif;
+
+  }
+  .p-6{
+    width: 50%;
+    text-align: center;
+  }
+  
+  .child7 { grid-area: child7; 
+  background-color: rgb(147, 182, 183);}
+  .child7 img{
+    width: 90%;
+  }
+  .child7 .lyer-one{
+
+    left: 5%;
+  }
+  .child7 .lyer-two{
+  right:15%;
+
+}
+.child7 p{
+  font-weight:700;
+Color:rgb(255, 255, 255);
+font-size:22px;
+line-height:32px;
+font-family: "Arvo", serif;
+}
+.child7 a{
+  font-weight:700;
+  Color:rgb(255, 255, 255);
+  font-size:8px;
+  line-height:20px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+  width: 90px;
+  height: 20px;
+  background-color: #FA684F;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.p-7{
+  width: 40%;
+  text-align: center;
+  margin-top: 10%;
+  
+}
+  
+  .child8 { grid-area: child8;
+  overflow: hidden; 
+  background-color: rgb(56, 213, 244);
+}
+  .layer-eight{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color:rgb(53, 207, 237) ;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .layer-eight p{
+    font-weight:400;
+  Color:rgb(255, 255, 255);
+font-size:22px;
+line-height:32px;
+font-family: "Arvo", serif;
+
+  }
+
+  .p-8{
+    width: 60%;
+    text-align: center;
+  }
+  .layer-eight img{
+width: 20%;
+  }
+  .child9 { grid-area: child9; 
+  background-color: white;}
+  .child9 .P-9 {
+    width: 60%;
+  }
+  .child9 P{
+    font-weight:400;
+    Color:rgb(51, 51, 51);
+    font-size:22px;
+    line-height:32px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .child9 a{
+    font-weight:700;
+    Color:rgb(255, 255, 255);
+    font-size:8px;
+    line-height:20px;
+    letter-spacing: 2px;
+    font-family: "Arvo", serif;
+    width: 90px;
+    height: 20px;
+    background-color: #7BC424;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+  margin-bottom: 10px;
+  }
+  .child10 { grid-area: child10; 
+  background-color: rgb(44, 44, 44);}
+  
+
+  .child10 img{
+    width: 25%;
+    background-color: rgb(44, 44, 44);
+  }
+
+  .child10 p{
+    font-weight:400;
+    Color:rgb(255, 255, 255);
+font-size:22px;
+line-height:32px;
+font-family: "Arvo", serif;
+  }
+  .p-10{
+    width: 25%;
+    margin-top: 70px;
+    margin-left: 0px;
+  }
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .containe {
+        grid-template-columns: 1fr; 
+        grid-template-rows: 400px 200px 280px 200px 180px 200px 200px 200px 200px 200px 200px 150px 200px 200px 200px 200px 200px 150px 150px 250px; 
+        grid-template-areas: 
+            "child2"
+            "child1"
+            "child1"
+  
+            "child3"
+            "child3"
+
+
+            "child6"
+            "child6"
+
+            "child4"
+            "child4"
+            "child4"
+      
+           "child8"
+            "child8"
+           
+
+            "child7"
+            "child7"
+     
+
+
+            "child5"
+            "child5"
+            "child5"
+            "child5"
+            
+            
+
+            "child9"
+
+
+
+  
+            "child10"
+    } 
+.child1{
+  flex-direction: column;
+}
+.child1 .text-chi1{
+  width: 80%;
+}
+.child1 img{
+  width: 90%;
+}
+.child2{
+ margin-bottom: 50px;
+ 
+}
+.child4{
+  flex-direction: column;
+}
+.img-child4{
+width: 100% !important;
+margin-bottom: 30px;
+}
+.text-child4{
+width: 100% !important;
+}
+.child6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+    
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .containe {
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows:repeat(18 ,150px); 
+        grid-template-areas:
+            "child2 child2"
+            "child2 child2"
+            "child1 child1"
+            "child1 child1"
+            "child3 child6"
+            "child3 child6"
+            "child3 child6"
+            "child4 child4"
+            "child4 child4"
+            "child4 child4"
+            "child7 child5"
+            "child7 child5"
+            "child7 child5"
+            "child8 child5"
+            "child8 child5"
+            "child9 child9"
+            "child9 child9"
+            "child10 child10"
+            "child10 child10"; 
+    }
+    .child5{
+      overflow: visible;
+    }
+.child1 img{
+  width: 43%;
+
+  transform:translateX(100px)
+}
+.child1{
+  overflow: hidden;
+  justify-content: space-between;
+}
+.child1 .text-chi1{
+  width: 30%;
+}
+.child1 .text-chi1 h3{
+  font-size: 30px;
+}
+.child2{
+  padding: 60px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
